@@ -31,9 +31,8 @@ This project implements a real-time color identification and classification syst
 The system operates by sequentially scanning color filters via the **S2 & S3** control pins, then using the `pulseIn()` function to measure the output pulse duration. The raw data is normalized using a **Mapping** function based on **Calibration** values to ensure maximum accuracy under consistent lighting conditions.
 
 ## Video Demo
-<video src="demo/tcs3200-low.mp4" controls="controls" style="max-width: 100%;">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/2f34407d-b9a9-46ad-af90-c056284bfebc
+
 
 ### Code Snippet: Red Filter Logic
 ```cpp
