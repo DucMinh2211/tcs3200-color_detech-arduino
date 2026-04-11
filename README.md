@@ -4,6 +4,9 @@ This project implements a real-time color identification and classification syst
 
 ![Color Recognition Demo](demo/tcs3200.gif)
 
+## Video Demo
+https://github.com/user-attachments/assets/2f34407d-b9a9-46ad-af90-c056284bfebc
+
 ## 🚀 Key Features
 
 * **RGB Processing:** Converts raw frequency data from the sensor into the standard RGB color space (0-255).
@@ -29,10 +32,6 @@ This project implements a real-time color identification and classification syst
 ## ⚙️ Core Algorithm
 
 The system operates by sequentially scanning color filters via the **S2 & S3** control pins, then using the `pulseIn()` function to measure the output pulse duration. The raw data is normalized using a **Mapping** function based on **Calibration** values to ensure maximum accuracy under consistent lighting conditions.
-
-## Video Demo
-https://github.com/user-attachments/assets/2f34407d-b9a9-46ad-af90-c056284bfebc
-
 
 ### Code Snippet: Red Filter Logic
 ```cpp
